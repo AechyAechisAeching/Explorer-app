@@ -156,7 +156,7 @@ rgb(0, 98, 255)
   align-items: center;
   letter-spacing: 4px;
   border-radius: 55px 200px  158px 150px;
-  border: 2.5px solid black;
+  border: 5.5px solid rgb(255, 255, 255);
   background: linear-gradient(to right bottom, #840000f7, #940000);
   color: rgb(255, 255, 255);
  
@@ -248,7 +248,7 @@ rgb(0, 98, 255)
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
 
 }
 form.example input[type=text] {
