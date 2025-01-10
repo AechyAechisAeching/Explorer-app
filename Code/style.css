@@ -116,14 +116,42 @@ rgb(0, 98, 255)
   );
   border-radius: 2rem;
 }
-.link {
+
+.button {
+  color: #000000;
+  letter-spacing: 1.4px;
   display: flex;
-  margin: 2rem 0rem;
-  padding: 1rem 5rem;
+  justify-content: center;
   align-items: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.838),
+    rgba(255, 255, 255, 0)
+  );
+  border-radius: 1rem;
+  width: 250px;
+  height: 70px;
+  margin-bottom: 10px;
+  transition: 0.3s ease;
 }
-.link h2 {
-  padding: 0rem 2rem;
+
+.button:hover {
+  transform: scale(1.10);
+  color: #000000;
+  letter-spacing: 1.4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.838),
+    rgba(255, 255, 255, 0.132)
+  );
+  border-radius: 1rem;
+  width: 250px;
+  height: 70px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;  
 }
 
 .games {
@@ -164,6 +192,10 @@ rgb(0, 98, 255)
 
 /* GAMES */
 
+.cards {
+  margin-top: 27%;
+}
+
 .card1 {
   display: flex;
   margin-top: 5rem;
@@ -178,7 +210,7 @@ rgb(0, 98, 255)
   justify-content: center;
   transition: 0.3s ease;
   border-radius: 1rem;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
 }
 
 .card2 {
@@ -195,7 +227,7 @@ rgb(0, 98, 255)
   justify-content: center;
   transition: 0.3s ease;
   border-radius: 1rem;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
 }
 
 .card3 {
@@ -212,7 +244,7 @@ rgb(0, 98, 255)
   justify-content: center;
   transition: 0.3s ease;
   border-radius: 1rem;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
 }
 
 .percentage {
@@ -248,7 +280,9 @@ rgb(0, 98, 255)
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  position: absolute;
+  left: 480px;
+  top: 80px;
 
 }
 form.example input[type=text] {
@@ -274,15 +308,15 @@ form.example button {
   border-radius: 50%;
   cursor: pointer;
   transition: 0.7s ease;
-  right: 19.0%;
-  top: 6.4%;
+  right: 13.0%;
+  top: 22%;
 
 }
 
 form.example button:hover {
-  background: #000000;
-  transform: scale(1.03);
-  color: white;
+  
+  transform: scale(1.23);
+  color: rgb(0, 0, 0);
 }
 
 /* Clear floats */
