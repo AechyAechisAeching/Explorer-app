@@ -12,12 +12,16 @@ function validateForm() {
       return false;
     }
 
-    const hasDigit = /\d/;
-    if (!hasDigit.test(password)) {
-      alert('Password must contain at least one digit.');
-      return false;
+ 
+    const digitCount = (password.match(/\d/g) || []).length;
+    const letterCount = (password.match(/[a-zA-Z]/g) || []).length;
+
+    if (digitCount < 3 || letterCount <= 5) {
+        alert('Password must contain at least 3 digits and more than 5 letters.');
+        return false;
     }
 
     // If validation passes, redirect to index.html
     window.location.href = 'index.html';
-  }
+}
+  

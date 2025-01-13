@@ -153,11 +153,17 @@
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.8s;
   }
   
   .input-submit:hover {
-    background: var(--second-color);
+    background-color: #000000;
+    color: #ffffff;
+    transform: scale(1.03);
+    letter-spacing: 1.5px;
+    box-shadow: 2px 1px 5px rgb(255, 255, 255);
+    border: 1px solid white;
+
   }
   
   .register {
